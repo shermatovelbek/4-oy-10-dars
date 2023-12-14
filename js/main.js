@@ -57,5 +57,38 @@
 
 //5-misol
 
+// function all(arr, arg) {
+//     let sum = false;
+//     arr.forEach((a) => {
+//       if (a === arg) {
+//         sum = true;
+//       }
+//     });
+//     return sum;
+//   }
+  
+//   let arr = [1, 2, 3, 4, 5 , 6 , 7 , 8 , 9 , 10];
+//   let res = all(arr, 6);
+//   console.log("siz izlagan natija" , res);
 
+//6-masala
+
+// function numbers(arr) {
+//     arr.forEach((element, index) => {
+//       let count = index;
+//       for (let i = index + 1; i < arr.length; i++) {
+//         if (arr[i] > arr[count]) {
+//             count = i;
+//         }
+//       }
+//       [arr[index], arr[count]] = [arr[count], arr[index]];
+//     });
+//     return arr;
+//   }
+  
+//   let myArray = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10];
+//   let sum = numbers(myArray);
+//   console.log(sum);
+  
+  
   
